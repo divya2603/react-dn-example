@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.app-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  list-style-type: none;
+}
+.app-header li{
+	display: inline-block;
+	padding : 20px;
+}
+.app-header li a{
+	cursor : pointer;
+}
+.circle{
+	border-radius : 100%;
+	background : blue;
+}
+li{
+	list-style-type: none;
+}
+.newsItem{
+	border : 2px solid black;
+}
+.newsItem span{
+	display: inline-block;
+}
+.content{
+	padding: 10px 40px 40px 40px;
+	
+}
+.upvotes{
+	padding-top: 15px;
+	padding-left: 15px;
+}
